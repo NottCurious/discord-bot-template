@@ -6,7 +6,7 @@ Most of the code and file structure comes from the `python-discord/bot` reposito
 If you have any suggestions please open an issue or pull request.
 
 ##### Template Version
-v0.1a
+v0.1a-p1
 
 ## How to Use
 WIP
