@@ -119,6 +119,7 @@ class YAMLGetter(type):
         for name in cls.__annotations__:
             yield name, getattr(cls, name)
 
+
 class Bot(metaclass=YAMLGetter):
     section = "bot"
 
@@ -141,11 +142,13 @@ class Channels(metaclass=YAMLGetter):
 
     general: int
 
+
 class Roles(metaclass=YAMLGetter):
     section = "roles"
 
     example_one: int
     example_two: int
+
 
 class Guild(metaclass=YAMLGetter):
     section = "guild"
@@ -228,5 +231,3 @@ class RedirectOutput(metaclass=YAMLGetter):
 
     delete_delay: int
     delete_invocation: bool
-© 2022 GitHub, Inc.
-Terms
