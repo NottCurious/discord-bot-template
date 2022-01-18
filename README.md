@@ -32,6 +32,7 @@ WIP
 * py-cord @ git+https://github.com/Pycord-Development/pycord@9feb8c16710219d7be370e39bf9f67d96840c477
 * py-cord[speed] (optional)
 * arrow
+* coloredlogs
 
 ## License
 Licensed under [MIT License](https://mit-license.org/).
