@@ -13,7 +13,8 @@ WIP
 
 ## Tips, Suggestions and Rules
 1. Every folder that contains code which contributes to the bot **MUST** have a `__init__.py` file.
-2. Use `black` as a handy formatter to format your code. 
+2. Fill out `default-config.yaml` and rename it to `config.yaml`
+3. Use `black` as a handy formatter to format your code. 
 ``` 
 # Windows
 pip install black
