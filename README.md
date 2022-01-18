@@ -11,6 +11,22 @@ v0.1.0a
 ## How to Use
 WIP
 
+## Tips, Suggestions and Rules
+1. Every folder that contains code which contributes to the bot **MUST** have a `__init__.py` file.
+2. Use `black` as a handy formatter to format your code. 
+``` 
+# Windows
+pip install black
+black .
+
+# Linux
+python3 -m pip install black
+python3 -m black .
+```
+
+## Why py-cord
+WIP
+
 ## Modules used
 * py-cord @ git+https://github.com/Pycord-Development/pycord@9feb8c16710219d7be370e39bf9f67d96840c477
 * py-cord[speed] (optional)
