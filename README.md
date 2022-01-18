@@ -33,6 +33,8 @@ WIP
 * py-cord[speed] (optional)
 * arrow
 * coloredlogs
+* python-dotenv
+* pyyaml
 
 ## License
 Licensed under [MIT License](https://mit-license.org/).
