@@ -12,7 +12,8 @@ v0.1.0a
 WIP
 
 ## Modules used
-pycord@git+github.com/Pycord-development/pycord
+* py-cord @ git+https://github.com/Pycord-Development/pycord@9feb8c16710219d7be370e39bf9f67d96840c477
+* py-cord[speed] (optional)
 
 ## License
 Licensed under [MIT License](https://mit-license.org/).
