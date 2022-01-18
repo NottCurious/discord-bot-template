@@ -13,6 +13,9 @@ error:
   show_stack_trace: true
   print_errors: true
 
+guilds:
+  guild_id_one: 11
+
 channels:
   general: 1000000000
 
