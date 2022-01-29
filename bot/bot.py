@@ -40,8 +40,7 @@ class Bot(commands.Bot):
         attempts = 0
 
         try:
-            log.info("Attempting site connection to Localhost")
-            await self.api_client.get("")
+            await self.api_client.get("https://google.com/")
         except BaseException:
             attempts += 1
 
@@ -165,9 +164,6 @@ class Bot(commands.Bot):
         will not be set.
         """
 
-        if guild.id not in (constants.Guild.tmi_server, constants.Guild.testing_server):
-            return
-
         if not guild.roles or not guild.members or not guild.channels:
             msg = "Guild available event was dispatched but cache is empty"
             log.warning(msg)
@@ -179,9 +175,6 @@ class Bot(commands.Bot):
 
     async def on_guild_unavailable(self, guild: discord.Guild) -> None:
         """Clear the internal guild available event when constants.Guild.id becomes unavailable."""
-        if guild.id not in (constants.Guild.tmi_server, constants.Guild.testing_server):
-            return
-
         log.info("%s is unavailable", guild.name)
         self._guild_available.clear()
 
