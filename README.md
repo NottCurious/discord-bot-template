@@ -38,12 +38,17 @@ WIP
 
 ## Modules used
 
-* py-cord @ git+https://github.com/Pycord-Development/pycord@9feb8c16710219d7be370e39bf9f67d96840c477
+* py-cord==2.0.0b1
 * py-cord[speed] (optional)
 * arrow
 * coloredlogs
 * python-dotenv
 * pyyaml
+* aiodns
+* aiohttp
+* black
+* python-dotenv
+* regex
 
 ## License
 
