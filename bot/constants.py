@@ -120,6 +120,15 @@ class YAMLGetter(type):
             yield name, getattr(cls, name)
 
 
+########################################################################################################################
+# Usage Example
+#
+# main.py
+# from bot import constants
+# prefix = constants.Bot.prefix
+# guild_id = constants.Guild.guild_id_one
+
+
 class Bot(metaclass=YAMLGetter):
     section = "bot"
 
