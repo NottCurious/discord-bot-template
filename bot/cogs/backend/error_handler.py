@@ -1,10 +1,10 @@
+import discord
 from discord import Embed
 from discord.ext.commands import (
     Cog,
     Context,
     errors,
 )
-import discord
 
 from bot.api import ResponseCodeError
 from bot.bot import Bot

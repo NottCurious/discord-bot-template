@@ -1,13 +1,12 @@
+import coloredlogs
 import datetime
 import logging
 import os
 import sys
+from discord.ext.commands import Context
 from logging import Logger, handlers
 from pathlib import Path
 from typing import Optional, TYPE_CHECKING, cast
-
-import coloredlogs
-from discord.ext.commands import Context
 
 from bot import constants
 

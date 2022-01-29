@@ -1,7 +1,6 @@
 """Launches the Bot"""
-import sys
-
 import aiohttp
+import sys
 
 import bot
 from bot import constants

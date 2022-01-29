@@ -4,9 +4,9 @@ By default, this simply loads the default
 configuration located at `config.yaml`.
 """
 
+import dotenv
 import os
 import yaml
-import dotenv
 
 try:
     dotenv.load_dotenv()

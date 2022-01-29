@@ -1,9 +1,8 @@
 ########################################## Entirely `python-discord/bot` code
 import asyncio
 import os
-from functools import partial, partialmethod
-
 from discord.ext import commands
+from functools import partial, partialmethod
 
 from bot import log, monkey_typing
 

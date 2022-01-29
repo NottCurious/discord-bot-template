@@ -1,7 +1,6 @@
 """Functions to interact with APIs."""
-from typing import Optional
-
 import aiohttp
+from typing import Optional
 
 
 class ResponseCodeError(ValueError):

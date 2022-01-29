@@ -1,11 +1,10 @@
+import aiohttp
 import asyncio
+import discord
 import socket
 from contextlib import suppress
-from typing import Optional
-
-import aiohttp
-import discord
 from discord.ext import commands
+from typing import Optional
 
 from bot import api, constants
 from bot.log import get_logger

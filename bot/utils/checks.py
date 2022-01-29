@@ -1,9 +1,8 @@
-from typing import Container, Optional
-
 from discord.ext.commands import (
     CheckFailure,
     Context,
 )
+from typing import Container, Optional
 
 from bot import constants
 from bot.log import get_logger
